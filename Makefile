@@ -1,5 +1,5 @@
 OUT = "pick"
-CC = gcc
+CC = clang
 CFLAGS = -Wall -g
 LDFLAGS = -nostartfiles -Wall -fomit-frame-pointer -fmerge-all-constants  -fno-math-errno -Wall -ffast-math  -fno-unroll-loops -Os -nodefaultlibs -lm -lc
 SOURCES = $(shell find src/ -name "*.cpp")
@@ -15,7 +15,6 @@ all: $(SOURCES) $(HEADERS)
 	./autovndh.py $(OUT) --xz --vndh "" > $(OUT)~
 	rm $(OUT) && mv $(OUT)~ $(OUT)
 	@echo "Size of the program:"
-	@du -h $(OUT)
 	@du -b $(OUT)
 
 run:
