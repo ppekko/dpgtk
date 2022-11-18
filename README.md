@@ -1,7 +1,7 @@
-![banner](./brand/banner.png)
 
 
-dpgtk is a small demo configurator to put at the beginning of your demos. It is header only and requires GTK. The basic program in the src/ totals up to 2184 bytes (2088 without the printf) when compiled on Arch Linux and clang (The basic program uses some additional dependencies, which are [vondehi](https://gitlab.com/PoroCYon/vondehi) and [sstrip](https://github.com/aunali1/super-strip) to crunch down on size).
+
+dpgtk is a small demo configurator to put at the beginning of your demos. It is header only and requires GTK. The basic program in the src/ totals up to 1871 bytes (1814 without the printf) when compiled on Arch Linux and gcc (The basic program uses some additional dependencies, which are [vondehi](https://gitlab.com/PoroCYon/vondehi) and [sstrip](https://github.com/aunali1/super-strip) to crunch down on size).
 
 It only requires one command.
 
@@ -19,11 +19,6 @@ void _start(){
 }
 ```
 
-<p align="center">
-<img src="./brand/screencap.png" alt="screencap" >
-<br>
-<img src="./brand/icon.png" alt="drawing" width="100" height="100"/>
-</p>
 
 Licensed under the MIT license (see LICENSE file)
 

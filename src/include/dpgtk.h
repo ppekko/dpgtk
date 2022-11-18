@@ -1,7 +1,7 @@
 #pragma once
 // MIT License
 // 
-// Copyright (c) kbx
+// Copyright (c) pipe
 // 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -23,7 +23,7 @@
 // 
 //    █▀▄ █▀█ █▀▀ ▀█▀ █▄▀             small and simple res/fps picker for linux using GTK
 //    █▄▀  █▀▀  █▄█ ░█░ █░█             2184 bytes
-//                                              by kbx (github.com/kb-x)
+//                                              by pipe (github.com/ppekko)
 //
 
 #include <gtk/gtk.h>
